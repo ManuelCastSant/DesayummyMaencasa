@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "931410816857",
+    "project_id": "desayummymaencasa",
+    "storage_bucket": "desayummymaencasa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931410816857:android:9e2136375574abd79a6648",
+        "android_client_info": {
+          "package_name": "com.example.desayummymaencasa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvdI7fNxOhyJUHdzDJx6YKCwdn4p558jQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".update_delete">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modificar Platillo"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtIdQ"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Ingrese el ID"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtnombreQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre platillo"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtregionQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Region Platillo"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtIngredienteQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrediente Principal"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtpaisQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pais platillo"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtprecioQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio platillo"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnQuery"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Recuperar"
+            android:layout_marginLeft="20dp"
+            />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClean"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Limpiar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+</LinearLayout>
