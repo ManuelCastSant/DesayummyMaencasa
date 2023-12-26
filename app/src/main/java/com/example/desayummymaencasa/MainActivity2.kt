@@ -60,7 +60,7 @@ class MainActivity2 : AppCompatActivity() {
                 )
 
             )
-            Toast.makeText(baseContext,"Exito al registrar", Toast.LENGTH_SHORT).show()
+            Toast.makeText(baseContext,"Exito al registrar perro", Toast.LENGTH_SHORT).show()
 
         }
 
